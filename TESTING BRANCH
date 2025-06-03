@@ -1,0 +1,31 @@
+Local MOD_ID = "gangrene"   
+
+
+    function checkinfectionlevel (player)
+
+
+        --Trigger fever at level 10-- 
+
+    If infectionlevel = 10 then 
+        applysickness(player) = true
+
+    end 
+end 
+
+fucntion applysickness(player) 
+
+    function body = player:getBodyDamage()
+
+            Body:setsickness(40.0)
+
+            
+
+
+        Body:setFatigue(body:getfatigue() + 0.5
+
+    end
+
+end
+
+ -- The idea is to make player sick at level 10 with a roll of the dice in the future. --
+ -- For reference the mod DangerMoodles_Deadlyinfections has a similar idea with rolling for a chance 1,9--
